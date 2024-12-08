@@ -14,7 +14,7 @@ export default function LayoutWrapper() {
         style={{ width: `calc(100vw - ${isSidebarExpanded ? "260" : "75"}px)` }}
       >
         <Header />
-        <div className="h-full overflow-scroll px-6 pt-4 md:pb-[6rem]  pb-[70px]">
+        <div className="h-full overflow-scroll px-6 pt-8 md:pb-[6rem]  pb-[70px]">
           <Outlet />
         </div>
       </main>

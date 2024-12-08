@@ -5,6 +5,12 @@ export const sidebarLinksData = [
     svgL: "assets/svgs/dashboard.svg",
     svgD: "assets/svgs/dashboard(2).svg",
   },
+  {
+    title: "Menu",
+    redirectTo: "/menu",
+    svgL: "assets/svgs/customer.svg",
+    svgD: "assets/svgs/customer(2).svg",
+  },
 ];
 
 export const dummyTicketsData = [
