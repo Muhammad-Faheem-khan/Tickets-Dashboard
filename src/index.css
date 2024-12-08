@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customCancelButton:hover {
+  border: 1px solid #054580 !important;
+  color: #054580 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.customOKButton:hover {
+  background-color: #256098 !important;
+}
+.ant-btn-primary {
+  background-color: #054580 !important;
+  color: white !important;
+}
+
+@media (max-width: 550px) {
+  .ag-paging-panel.ag-unselectable.ag-focus-managed {
+    flex-direction: column !important;
+    margin-top: 30px !important;
+  }
+
+  .ag-paging-panel.ag-unselectable.ag-focus-managed > span {
+    margin-bottom: 2px !important;
+  }
 }
