@@ -140,7 +140,7 @@ export const dummyTicketsData = [
 export const TableColumns = [
   { field: "ticketName", headerName: "Ticket Name" },
   { field: "ticketDuration", headerName: "Duration" },
-  { field: "description", headerName: "Description", minWidth: 220 },
+  { field: "description", headerName: "Description", minWidth: 350 },
   {
     field: "assignedBy",
     headerName: "Assigned By",
